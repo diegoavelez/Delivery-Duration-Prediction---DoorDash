@@ -9,9 +9,9 @@ This project aims to build a machine learning model to predict the delivery dura
 - [Models Used](#models-used)
 - [Results](#results)
 - [Requirements](#requirements)
-- [Setup](#setup)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Conclusion](#conclusion)
 - [License](#license)
 
 ## Project Overview
@@ -57,17 +57,20 @@ To install the necessary dependencies, you can use `pip` with the provided `requ
 
 ```bash
 pip install -r requirements.txt
+```
 
-Usage
+## Usage
 
 1. Clone the Repository
 
+```bash
 git clone https://github.com/your-username/delivery-duration-prediction.git
 cd delivery-duration-prediction
+```
 
 2. Run the Notebooks
 
-   •	00_Assignment.ipyn: Info about the assignment and data dictionary
+    •	00_Assignment.ipyn: Info about the assignment and data dictionary
 	•	01_EDA.ipynb: Exploratory Data Analysis and feature engineering.
 	•	02_Preprocessing.ipynb: Preprocess data and save the final dataset.
 	•	03_Modeling_Training.ipynb: Train and evaluate the Random Forest Regressor and the XGBoost model.
@@ -75,8 +78,9 @@ cd delivery-duration-prediction
 
 Each notebook is self-contained and can be executed in sequence. Ensure the preprocessed data file processed_data_final.csv is available before running the modeling notebooks.
 
-Project Structure
+## Project Structure
 
+```bash
 .
 ├── data/
 │   ├── historical_data.csv                # Original dataset
@@ -90,8 +94,9 @@ Project Structure
 ├── requirements.txt                       # Required libraries
 ├── README.md                              # Project documentation
 └── LICENSE                                # Project license
+```
 
-Conclusion
+## Conclusion
 
 The XGBoost model achieved the best performance with an MAE of 525 seconds, providing a reliable prediction within approximately 8-10 minutes. The deep learning model also performed reasonably well but was slightly less accurate.
 
@@ -104,7 +109,7 @@ Potential improvements include:
 	•	Hyperparameter Tuning: Further tune the deep learning model’s architecture.
 	•	Real-time Prediction: Deploy the XGBoost model for real-time predictions in production.
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 

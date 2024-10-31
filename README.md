@@ -70,11 +70,15 @@ cd delivery-duration-prediction
 
 2. Run the Notebooks
 
-    •	00_Assignment.ipyn: Info about the assignment and data dictionary
-	•	01_EDA.ipynb: Exploratory Data Analysis and feature engineering.
-	•	02_Preprocessing.ipynb: Preprocess data and save the final dataset.
-	•	03_Modeling_Training.ipynb: Train and evaluate the Random Forest Regressor and the XGBoost model.
-	•	04_Modeling_DeepLearning.ipynb: Train and evaluate the Deep Learning model.
+    • 00_Assignment.ipyn: Info about the assignment and data dictionary
+
+	• 01_EDA.ipynb: Exploratory Data Analysis and feature engineering.
+
+	• 02_Preprocessing.ipynb: Preprocess data and save the final dataset.
+
+	• 03_Modeling_Training.ipynb: Train and evaluate the Random Forest Regressor and the XGBoost model.
+
+	• 04_Modeling_DeepLearning.ipynb: Train and evaluate the Deep Learning model.
 
 Each notebook is self-contained and can be executed in sequence. Ensure the preprocessed data file processed_data_final.csv is available before running the modeling notebooks.
 
@@ -104,10 +108,10 @@ Future Work
 
 Potential improvements include:
 
-	•	Feature Engineering: Experiment with additional features to capture more complex patterns.
-	•	Ensemble Models: Combine XGBoost and Deep Learning models for potentially improved accuracy.
-	•	Hyperparameter Tuning: Further tune the deep learning model’s architecture.
-	•	Real-time Prediction: Deploy the XGBoost model for real-time predictions in production.
+	• Feature Engineering: Experiment with additional features to capture more complex patterns.
+	• Ensemble Models: Combine XGBoost and Deep Learning models for potentially improved accuracy.
+	• Hyperparameter Tuning: Further tune the deep learning model’s architecture.
+	• Real-time Prediction: Deploy the XGBoost model for real-time predictions in production.
 
 ## License
 
